@@ -34,7 +34,7 @@ public class homeWorkTwo {
         printString("Hello,world!!!", 3);
         System.out.println("**********");
 
-        System.out.println(checkYear(2023));
+        System.out.println(checkYear(2020));
         System.out.println("**********");
     }
 //    public static void checkSum(int a, int b){
@@ -73,10 +73,7 @@ public class homeWorkTwo {
     }
 
     public static boolean checkYear(int year){
-        if(year%4 ==0 && year%100 !=0 || year%400 ==0 )
-            return true;
-        else
-            return false;
+            return (year%4 ==0 && year%100 !=0 || year%400 ==0 );
     }
 
 }
